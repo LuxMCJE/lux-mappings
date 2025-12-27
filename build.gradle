@@ -1,0 +1,18 @@
+plugins {
+    id 'maven-publish'
+}
+
+group = 'net.luxmcje'
+version = '1.20.1+build.1'
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'net.luxmcje'
+            artifactId = 'lux-yarn'
+            version = '1.20.1+build.1'
+            
+            artifact("build/libs/lux-yarn-${version}.jar")
+        }
+    }
+}
