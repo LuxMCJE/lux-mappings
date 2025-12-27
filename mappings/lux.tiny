@@ -1,0 +1,6 @@
+v1	official	intermediary	named
+CLASS	net/minecraft/class_310	lux/core/LuxEngine	LuxClient
+CLASS	net/minecraft/class_1657	lux/world/entity/LuxPlayer	LuxPlayer
+CLASS	net/minecraft/class_1937	lux/world/LuxUniverse	LuxWorld
+CLASS	net/minecraft/class_1297	lux/world/entity/LuxEntity	LuxEntity
+CLASS	net/minecraft/class_2378	lux/registry/LuxRegistry	LuxRegistry
