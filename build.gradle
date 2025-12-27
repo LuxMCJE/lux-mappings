@@ -21,8 +21,14 @@ publishing {
             groupId = 'net.luxmcje'
             artifactId = 'lux-yarn'
             version = project.version
-            
+           
             from components.java
+            artifact buildLuxJar
+        }
+    }
+    repositories {
+        maven {
+            url = layout.buildDirectory.dir("repo")
         }
     }
 }
